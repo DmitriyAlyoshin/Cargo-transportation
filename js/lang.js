@@ -6,18 +6,18 @@ const langArr = {
     }, 
     "hero" :  {
         "ru": "Грузоперевозки в Европу из Украины",
-        "en": "Cargo transportation to Europe from Ukraine",
-        "ua": "Вантажоперевезення в Європу з України",
+        "en": "Shipping to Europe from Ukraine",
+        "ua": "Вантажні перевезення в Європу з України",
     }, 
     "btn-contacts": {
         "ru": "связаться с нами",
         "en": "contact us",
         "ua": "зв'язатися з нами",
     }, 
-    "memory": {
-        "ru": "объем памяти",
-        "en": "memory size",
-        "ua": "oбсяг пам'яті",
+    "features": {
+        "ru": "наши особенности",
+        "en": "our features",
+        "ua": "наші особливості",
     }, 
     "memory-type": {
         "ru": "тип памяти",

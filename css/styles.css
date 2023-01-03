@@ -1,5 +1,11 @@
-header {
-  background-color: var(--bs-gray-300);
+header, footer {
+  background-color: var(--bs-gray-500);
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+main {
+  background-color: var(--bs-gray-200);
 }
 
 .header-nav {
@@ -55,7 +61,7 @@ header {
       rgba(47, 48, 58, 0.4)
     ),
     url("../images/Metr_2d_320.jpg");
-  background-color: #000;
+  background-color: var(--bs-gray-200);
   background-size: cover;
   background-repeat: no-repeat;
   text-align: center;
@@ -124,7 +130,7 @@ header {
 }
 
 .hero {
-    margin: 100px auto 20px;
+    margin: 100px auto 30px;
     color: whitesmoke;
   }
 
@@ -148,4 +154,10 @@ header {
     margin: 300px auto 100px;
     color: whitesmoke;
   }
+}
+
+.container-features{
+  padding-bottom: 50px;
+  padding-top: 50px;
+  
 }
