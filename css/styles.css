@@ -7,12 +7,12 @@ header {
 }
 
 @media screen and (max-width: 575px) {
-  .col-sm-auto {
+  .header-tagline {
     display: none;
   }
 }
 
-.col-sm-auto {
+.header-tagline {
   background: rgb(109, 179, 242);
   background: -moz-linear-gradient(
     top,
@@ -38,14 +38,114 @@ header {
 }
 
 .container-hero {
-  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/Metr_2d.jpg);
+  max-width: 1600px;
+  margin: 0 auto;
+  height: auto;
+  background-image: -webkit-gradient(
+      linear,
+      left top,
+      right top,
+      from(rgba(47, 48, 58, 0.4)),
+      to(rgba(47, 48, 58, 0.4))
+    ),
+    url("../images/Metr_2d_320.jpg");
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url("../images/Metr_2d_320.jpg");
+  background-color: #000;
   background-size: cover;
   background-repeat: no-repeat;
-  width: 100%;
-  height: 720px;
+  text-align: center;
+}
+
+@media (min-width: 450px) {
+  .container-hero {
+    width: 450px;
+    height: 322px;
+    background-image: -webkit-gradient(
+        linear,
+        left top,
+        right top,
+        from(rgba(47, 48, 58, 0.4)),
+        to(rgba(47, 48, 58, 0.4))
+      ),
+      url("../images/Metr_2d_450.jpg");
+    background-image: linear-gradient(
+        to right,
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url("../images/Metr_2d_450.jpg");
+    background-size: 450px 322px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container-hero {
+    width: 768px;
+    height: 432px;
+    background-image: -webkit-gradient(
+        linear,
+        left top,
+        right top,
+        from(rgba(47, 48, 58, 0.4)),
+        to(rgba(47, 48, 58, 0.4))
+      ),
+      url("../images/Metr_2d_768.jpg");
+    background-image: linear-gradient(
+        to right,
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url("../images/Metr_2d_768.jpg");
+    background-size: 768px 432px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .container-hero {
+    width: 1280px;
+    height: 720px;
+    background-image: linear-gradient(
+        to right,
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url(../images/Metr_2d.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 720px;
+  }
 }
 
 .hero {
-  margin: 300px auto;
-  color: whitesmoke
+    margin: 100px auto;
+    color: whitesmoke;
+  }
+
+
+@media (min-width: 450px) {
+  .hero {
+    margin: 100px auto;
+    color: whitesmoke;
+  }
+}
+
+@media (min-width: 768px) {
+  .hero {
+    margin: 200px auto;
+    color: whitesmoke;
+  }
+}
+
+@media (min-width: 1280px) {
+  .hero {
+    margin: 300px auto;
+    color: whitesmoke;
+  }
 }
