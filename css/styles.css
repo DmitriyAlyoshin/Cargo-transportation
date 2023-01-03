@@ -61,7 +61,7 @@ main {
       rgba(47, 48, 58, 0.4)
     ),
     url("../images/Metr_2d_320.jpg");
-  background-color: var(--bs-gray-200);
+  background-color: var(--bs-black);
   background-size: cover;
   background-repeat: no-repeat;
   text-align: center;
