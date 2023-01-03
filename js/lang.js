@@ -9,10 +9,10 @@ const langArr = {
         "en": "Cargo transportation to Europe from Ukraine",
         "ua": "Вантажоперевезення в Європу з України",
     }, 
-    "chip": {
-        "ru": "графический чип",
-        "en": "graphics processing unit",
-        "ua": "графічний чіп",
+    "btn-contacts": {
+        "ru": "связаться с нами",
+        "en": "contact us",
+        "ua": "зв'язатися з нами",
     }, 
     "memory": {
         "ru": "объем памяти",
