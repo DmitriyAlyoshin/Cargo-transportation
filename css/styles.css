@@ -163,6 +163,10 @@ main {
   
 }
 
+.lng-features {
+  margin-bottom: 50px;
+}
+
 .footer-link:hover,
 .footer-link:focus {
   color: var(--bs-blue);

@@ -28,6 +28,17 @@ const langArr = {
         "ru": "Адрес",
         "en": "Address",
         "ua": "Адреса",
+    },
+    "address-full": {
+        "ru": "25009, Украина, Кропивницкий",
+        "en": "25009, Ukraine, Kropyvnytskyi",
+        "ua": "25009, Україна, Кропивницький",
+    }, 
+
+    "messengers": {
+        "ru": "Мессенджеры",
+        "en": "Messengers",
+        "ua": "Месенджери",
     }, 
 
     "memory-type": {
