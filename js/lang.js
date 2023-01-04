@@ -17,7 +17,27 @@ const langArr = {
     "features": {
         "ru": "наши особенности",
         "en": "our features",
-        "ua": "наші особливості",
+        "ua": "наші особливості",        
+    }, 
+    "mobility": {
+        "ru": "Мобильность",
+        "en": "Mobility",
+        "ua": "Мобільність",
+    }, 
+    "mobility-1": {
+        "ru": "Не нужны разрешения на малотоннажный транспорт",
+        "en": "No need licenses for light vehicles",
+        "ua": "Не потрібні дозволи на малотонажний транспорт",
+    }, 
+    "mobility-2": {
+        "ru": "Доставка к клиенту благодаря возможности движения внутри города",
+        "en": "Delivery to the client due to the possibility of movement within the city",
+        "ua": "Доставка до клієнта завдяки можливості проїзду по містах",
+    }, 
+    "mobility-3": {
+        "ru": "Индивидуальный подход к каждому клиенту",
+        "en": "Individual approach to each client",
+        "ua": "Індивідуальний підхід до кожного клієнта",
     }, 
     "inform": {
         "ru": "Информация",
