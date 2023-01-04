@@ -19,6 +19,17 @@ const langArr = {
         "en": "our features",
         "ua": "наші особливості",
     }, 
+    "inform": {
+        "ru": "Информация",
+        "en": "Information",
+        "ua": "Інформація",
+    },
+    "address": {
+        "ru": "Адрес",
+        "en": "Address",
+        "ua": "Адреса",
+    }, 
+
     "memory-type": {
         "ru": "тип памяти",
         "en": "memory type",
