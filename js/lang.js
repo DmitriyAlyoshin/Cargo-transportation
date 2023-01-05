@@ -24,7 +24,6 @@ const langArr = {
         "en": "We have been operating in the road transport market since 2016 year and have our oun fleet of vehicles of various capacities. Our many years' expirience in the industry enables us to offer our clients the highest quality domestic and international transport services.",
         "ua": "Ми працюємо на ринку автомобільних перевезень з 2016 року, маємо власний автопарк з автомобілями різної вантажопідйомності. Багаторічний досвід роботи у цій галузі дозволяє нам запропонувати клієнтам послуги внутрішніх та міжнародних перевезень найвищої якості.",
     },
-
     "features": {
         "ru": "наши особенности",
         "en": "our features",
@@ -55,6 +54,46 @@ const langArr = {
         "en": "Information",
         "ua": "Інформація",
     },
+    "inform-title": {
+        "ru": "Мы предлагаем услуги грузоперевозок по Украине и заграницу практически любого типа:",
+        "en": "We offer shipping services in Ukraine and abroad of almost any type:",
+        "ua": "Ми пропонуємо вантажоперевезення по Україні та за кордон практично будь-якого типу:",
+    },
+    "inform-li-1": {
+        "ru": "сборные грузы;",
+        "en": "consolidated cargoes;",
+        "ua": "збірні грузи;",
+    },
+    "inform-li-2": {
+        "ru": "попутные грузы;",
+        "en": "consigments;",
+        "ua": "попутні вантажі;",
+    },
+    "inform-li-3": {
+        "ru": "комплектные грузы;",
+        "en": "complete cargo;",
+        "ua": "комплектні вантажі;",
+    },
+    "inform-li-4": {
+        "ru": "коммерческие грузы;",
+        "en": "commercial cargoes;",
+        "ua": "комерційні вантажі;",
+    },
+    "inform-li-5": {
+        "ru": "проектные грузы (строительные и отделочные материалы, металлические профили);",
+        "en": "project cargoes (building and finishing materials, metal profiles);",
+        "ua": "проектні вантажі (будівельні та оздоблювальні матеріали, металеві профілі);",
+    },
+    "inform-li-6": {
+        "ru": "перевозка товаров народного потребления;",
+        "en": "transport of consumer goods;",
+        "ua": "перевезення товарів народного споживання;",
+    },
+    "inform-li-7": {
+        "ru": "домашние переезды;",
+        "en": "household moves;",
+        "ua": "домашні переїзди;",
+    },  
     "address": {
         "ru": "Адрес",
         "en": "Address",
@@ -71,20 +110,5 @@ const langArr = {
         "en": "Messengers",
         "ua": "Месенджери",
     }, 
-
-    "memory-type": {
-        "ru": "тип памяти",
-        "en": "memory type",
-        "ua": "nип пам'яті",
-    }, 
-    "cool": {
-        "ru": "тип системы охлаждения",
-        "en": "сooling system type",
-        "ua": "тип системи охолодження",
-    }, 
-    "more": {
-        "ru": "детально о товаре",
-        "en": "more details",
-        "ua": "детально про товар",
-    }, 
+    
 }
