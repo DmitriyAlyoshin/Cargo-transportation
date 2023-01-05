@@ -73,6 +73,10 @@ main {
   text-align: center;
 }
 
+.container-about {
+  padding-top: 50px;
+}
+
 @media (min-width: 450px) {
   .container-hero {
     width: 450px;
