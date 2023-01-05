@@ -21,7 +21,7 @@ main {
 .change-lang {
   padding: 10px 25px;
   background-color: var(--bs-gray-500);
-  border-radius: 10%;
+  border-radius: 5%;
 }
 
 .header-tagline {
@@ -51,8 +51,9 @@ main {
 
 .container-hero {
   max-width: 1600px;
-  
-  height: 300px;
+  min-width: 320px;
+  width: 100%;
+  height: 100%;
   background-image: -webkit-gradient(
       linear,
       left top,
@@ -60,13 +61,13 @@ main {
       from(rgba(47, 48, 58, 0.4)),
       to(rgba(47, 48, 58, 0.4))
     ),
-    url("../images/Metr_2d_320.jpg");
+    url("../images/Renault/Renault_450.png");
   background-image: linear-gradient(
       to right,
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
-    url("../images/Metr_2d_320.jpg");
+    url("../images/Renault/Renault_450.png");
   background-color: var(--bs-black);
   background-size: cover;
   background-repeat: no-repeat;
@@ -77,10 +78,14 @@ main {
   padding-top: 50px;
 }
 
+.lng-btn-contacts {
+  margin-bottom: 20px;
+}
+
 @media (min-width: 450px) {
   .container-hero {
     width: 450px;
-    height: 322px;
+    height: 300px;
     background-image: -webkit-gradient(
         linear,
         left top,
@@ -88,21 +93,47 @@ main {
         from(rgba(47, 48, 58, 0.4)),
         to(rgba(47, 48, 58, 0.4))
       ),
-      url("../images/Metr_2d_450.jpg");
+      url("../images/Renault/Renault_450.png");
     background-image: linear-gradient(
         to right,
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-      url("../images/Metr_2d_450.jpg");
-    background-size: 450px 322px;
+      url("../images/Renault/Renault_450.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;    
+  }
+}
+
+@media (min-width: 576px) {
+  .container-hero {
+    width: 576px;
+    height: 384px;
+    background-image: -webkit-gradient(
+        linear,
+        left top,
+        right top,
+        from(rgba(47, 48, 58, 0.4)),
+        to(rgba(47, 48, 58, 0.4))
+      ),
+      url("../images/Renault/Renault_576.png");
+    background-image: linear-gradient(
+        to right,
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url("../images/Renault/Renault_576.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;    
   }
 }
 
 @media (min-width: 768px) {
   .container-hero {
     width: 768px;
-    height: 432px;
+    height: 512px;
     background-image: -webkit-gradient(
         linear,
         left top,
@@ -110,44 +141,76 @@ main {
         from(rgba(47, 48, 58, 0.4)),
         to(rgba(47, 48, 58, 0.4))
       ),
-      url("../images/Metr_2d_768.jpg");
+      url("../images/Renault/Renault_768.png");
     background-image: linear-gradient(
         to right,
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-      url("../images/Metr_2d_768.jpg");
-    background-size: 768px 432px;
+      url("../images/Renault/Renault_768.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;    
   }
 }
 
-@media (min-width: 1280px) {
+@media (min-width: 990px) {
   .container-hero {
-    width: 1280px;
-    height: 720px;
+    width: 990px;
+    height: 660px;
+    background-image: -webkit-gradient(
+        linear,
+        left top,
+        right top,
+        from(rgba(47, 48, 58, 0.4)),
+        to(rgba(47, 48, 58, 0.4))
+      ),
+      url("../images/Renault/Renault_992.png");
     background-image: linear-gradient(
         to right,
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-      url(../images/Metr_2d.jpg);
+      url("../images/Renault/Renault_992.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;    
+  }
+}
+
+@media (min-width: 1200px) {
+  .container-hero {
+    width: 1200px;
+    height: 800px;
+    background-image: linear-gradient(
+        to right,
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url(../images/Renault/Renault_1200.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    width: 100%;
-    height: 720px;
+    
   }
 }
 
 .hero {
-    margin: 100px auto 30px;
+    margin: 75px auto 25px;
     color: whitesmoke;
   }
 
 
 @media (min-width: 450px) {
   .hero {
-    margin: 100px auto 50px;
+    margin: 100px auto 30px;
+    color: whitesmoke;
+  }
+}
+
+@media (min-width: 576px) {
+  .hero {
+    margin: 150px auto 40px;
     color: whitesmoke;
   }
 }
@@ -159,7 +222,15 @@ main {
   }
 }
 
-@media (min-width: 1280px) {
+
+@media (min-width: 990px) {
+  .hero {
+    margin: 250px auto 50px;
+    color: whitesmoke;
+  }
+}
+
+@media (min-width: 1200px) {
   .hero {
     margin: 300px auto 100px;
     color: whitesmoke;
