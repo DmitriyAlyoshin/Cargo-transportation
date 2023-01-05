@@ -74,10 +74,6 @@ main {
   text-align: center;
 }
 
-.container-about {
-  padding-top: 50px;
-}
-
 .lng-btn-contacts {
   margin-bottom: 20px;
 }
@@ -235,6 +231,14 @@ main {
     margin: 300px auto 100px;
     color: whitesmoke;
   }
+}
+
+.container-about {
+  padding-top: 50px;
+}
+
+.lng-about-us-1 {
+  margin: 0;
 }
 
 .container-features,

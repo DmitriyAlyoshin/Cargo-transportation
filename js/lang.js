@@ -14,6 +14,17 @@ const langArr = {
         "en": "contact us",
         "ua": "зв'язатися з нами",
     }, 
+    "about-us-1": {
+        "ru": "Автотранспорт - занчительный сегмент экономики. Автомобильные перевозки позволяют транспортировать любой вид груза и доставлять его в любую точку Украины и за ее пределами.",
+        "en": "Road transport is a significant segment of the economy. Road haulage makes it possible to transport any type of cargo and deliver it to any point in Ukraine and beyond its borders.",
+        "ua": "Автотранспорт є значним сегментом економіки. Автомобільні вантажоперевезення дозволяють транспортувати будь-який тип вантажу і доставляти його практично в будь-яку точку України та за іі межами.",
+    }, 
+    "about-us-2": {
+        "ru": "Мы работаем на рынке автомобильных перевозок с 2016 года, имеем собственный парк автомобилей различной грузоподъемности. Многолетний опыт работы в этой отрасли позволяет нам предложить клиентам услуги внутренних и международных перевозок самого высокого качества.",
+        "en": "We have been operating in the road transport market since 2016 year and have our oun fleet of vehicles of various capacities. Our many years' expirience in the industry enables us to offer our clients the highest quality domestic and international transport services.",
+        "ua": "Ми працюємо на ринку автомобільних перевезень з 2016 року, маємо власний автопарк з автомобілями різної вантажопідйомності. Багаторічний досвід роботи у цій галузі дозволяє нам запропонувати клієнтам послуги внутрішніх та міжнародних перевезень найвищої якості.",
+    },
+
     "features": {
         "ru": "наши особенности",
         "en": "our features",
