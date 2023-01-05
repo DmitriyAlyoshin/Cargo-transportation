@@ -18,6 +18,12 @@ main {
   }
 }
 
+.change-lang {
+  padding: 10px 25px;
+  background-color: var(--bs-gray-500);
+  border-radius: 10%;
+}
+
 .header-tagline {
   background: rgb(109, 179, 242);
   background: -moz-linear-gradient(
@@ -165,6 +171,11 @@ main {
 
 .lng-features {
   margin-bottom: 50px;
+}
+
+.container-inform {
+  margin-top: 0;
+  padding-top: 0;
 }
 
 .footer-link:hover,

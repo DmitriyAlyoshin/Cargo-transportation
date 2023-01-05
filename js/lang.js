@@ -26,12 +26,12 @@ const langArr = {
     }, 
     "mobility-1": {
         "ru": "Не нужны разрешения на малотоннажный транспорт",
-        "en": "No need licenses for light vehicles",
+        "en": "No permits required for light vehicles",
         "ua": "Не потрібні дозволи на малотонажний транспорт",
     }, 
     "mobility-2": {
         "ru": "Доставка к клиенту благодаря возможности движения внутри города",
-        "en": "Delivery to the client due to the possibility of movement within the city",
+        "en": "Delivery to the client thanks to in-city traffic",
         "ua": "Доставка до клієнта завдяки можливості проїзду по містах",
     }, 
     "mobility-3": {
@@ -50,9 +50,9 @@ const langArr = {
         "ua": "Адреса",
     },
     "address-full": {
-        "ru": "25009, Украина, Кропивницкий",
-        "en": "25009, Ukraine, Kropyvnytskyi",
-        "ua": "25009, Україна, Кропивницький",
+        "ru": "25009, Украина, Краматорск",
+        "en": "84313, Ukraine, Kramatorsk",
+        "ua": "25009, Україна, Краматорськ",
     }, 
 
     "messengers": {
